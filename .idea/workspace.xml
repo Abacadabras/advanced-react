@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e87a28b-719a-4717-ba79-ce9ac34ee6ae" name="Changes" comment="docs: update config files idea">
-      <change beforePath="$PROJECT_DIR$/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.ts" afterDir="false" />
+    <list default="true" id="6e87a28b-719a-4717-ba79-ce9ac34ee6ae" name="Changes" comment="feat: add route and lazy loading">
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/AboutPage.async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage/AboutPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/advanced_react.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/advanced_react.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/build/buildDevServer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/build/buildDevServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +37,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "18.12.1",
     "javascript.nodejs.core.library.typings.version": "18.13.0",
+    "last_opened_file_path": "D:/advanced-react/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -34,11 +45,16 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "ts.external.directory.path": "D:\\advanced-react\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\advanced-react\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.build:prod">
     <configuration name="build:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -73,8 +89,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.build:prod" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build:dev" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676055752927</updated>
       <workItem from="1676055753582" duration="1600000" />
-      <workItem from="1676201918633" duration="1087000" />
+      <workItem from="1676201918633" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: remove two types of annotations (webpack and node)">
       <created>1676202563761</created>
@@ -103,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676202634995</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="docs: update config files idea">
+      <created>1676203144601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676203144601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: node import">
+      <created>1676203236425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676203236425</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +153,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: remove two types of annotations (webpack and node)" />
     <MESSAGE value="docs: update config files idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update config files idea" />
+    <MESSAGE value="fix: node import" />
+    <MESSAGE value="feat: add route and lazy loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add route and lazy loading" />
   </component>
 </project>
